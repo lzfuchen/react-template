@@ -1,5 +1,5 @@
-const IS_RPOD = process.env.NODE_ENV === 'production'
+const { isEnvProd } = require('./scripts/constants')
 
 module.exports = {
-  plugins: [IS_RPOD && require('autoprefixer')]
+  plugins: [isEnvProd && require('autoprefixer')]
 }

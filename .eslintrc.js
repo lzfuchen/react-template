@@ -75,6 +75,32 @@ module.exports = {
     'unicorn/no-useless-fallback-in-spread': OFF,
     'unicorn/prefer-spread': OFF,
 
+    '@typescript-eslint/no-useless-constructor': ERROR,
+    '@typescript-eslint/no-var-requires': OFF,
+    '@typescript-eslint/explicit-function-return-type': OFF,
+    '@typescript-eslint/explicit-module-boundary-types': OFF,
+    '@typescript-eslint/no-explicit-any': OFF,
+    '@typescript-eslint/no-unused-vars': OFF,
+    '@typescript-eslint/ban-ts-comment': OFF,
+    '@typescript-eslint/no-shadow': ['error'],
+    '@typescript-eslint/no-non-null-assertion': OFF,
+    '@typescript-eslint/no-empty-function': OFF,
+
+    'react/jsx-filename-extension': [ERROR, { extensions: ['.tsx', 'ts', '.jsx', 'js'] }],
+    'react/jsx-indent-props': [ERROR, 2],
+    'react/jsx-indent': [ERROR, 2],
+    'react/jsx-one-expression-per-line': OFF,
+    'react/destructuring-assignment': OFF,
+    'react/state-in-constructor': OFF,
+    'react/jsx-props-no-spreading': OFF,
+    'react/prop-types': OFF,
+    'react/require-default-props': OFF,
+    'react/no-unused-prop-types': OFF,
+    'react/jsx-no-bind': OFF,
+    'react/function-component-definition': OFF,
+    'react/jsx-no-useless-fragment': OFF,
+    'react/no-unstable-nested-components': OFF,
+
     'global-require': OFF
   }
 }
