@@ -27,6 +27,13 @@ module.exports = {
   },
   plugins: ['import', 'react', 'jsx-a11y', 'unicorn', 'react-hooks', '@typescript-eslint', 'prettier'],
   rules: {
+    'import/no-extraneous-dependencies': OFF,
+    'import/no-import-module-exports': OFF,
+    'import/prefer-default-export': OFF,
+    'import/no-unresolved': OFF,
+    'import/no-dynamic-require': OFF,
+    'import/extensions': OFF,
+
     'unicorn/better-regex': ERROR,
     'unicorn/prevent-abbreviations': OFF,
     'unicorn/filename-case': [
@@ -66,6 +73,8 @@ module.exports = {
     'unicorn/prefer-export-from': OFF,
     'unicorn/prefer-code-point': OFF,
     'unicorn/no-useless-fallback-in-spread': OFF,
-    'unicorn/prefer-spread': OFF
+    'unicorn/prefer-spread': OFF,
+
+    'global-require': OFF
   }
 }
